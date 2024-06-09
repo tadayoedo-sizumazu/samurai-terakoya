@@ -1,0 +1,27 @@
+.google-fonts {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400. bold;
+  font-style: normal;
+  letter-spacing: 1.2em;
+  border-bottom: solid 3px gray ;
+  text-shadow: 2px 2px 3px gray; 
+  text-align: center;
+} 
+main {
+  font-family: "Arial","Mairyo",sans-serif;
+}
+  .text-color {
+  color:skyblue;
+  }
+  .text2-color {
+  color: rgb(255,192,203);
+}
+h2 {
+    color: rgb(255,192,203);
+    font-size: 20px;
+    text-align: center; 
+  }
+  P {
+    text-align: center; 
+  }
