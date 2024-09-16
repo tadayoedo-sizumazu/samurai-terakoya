@@ -10,12 +10,6 @@ body {
     max-width: 1080px;
     margin: 0 auto 0 auto;    
 }
-#menu-sp {
-    display: none;
-}
-#nav-sp {
-    display: none;
-}
 /*ヘッダー*/
 header {
     display: flex;   
@@ -32,6 +26,13 @@ header {
 #nav-pc li {
     list-style: none;
 }
+/* SPナビゲーション非表示 */
+#menu-sp {
+    display: none;
+}
+#nav-sp {
+    display: none;
+} 
 /*ナビゲーションのリンクの装飾設定*/
 #nav-pc a {
     text-decoration: none;
@@ -62,7 +63,6 @@ header {
         display: block;
         float: right;
         padding: 0;
-        border: none;
     }
     /* スマホ用ナビゲーションの表示*/
     #nav-sp {
@@ -71,24 +71,22 @@ header {
         left: 0;
         top: 0;
         height: 100%;
-        width: 100%;
+        width: 100%;  
         display: none;
-        z-index: 100;
+        z-index: 100;   
     }   
+    #nav-sp ul {
+        padding-left: 0;
+    }
+    #nav-sp li {
+        list-style: none;
+    }    
      /* ×ボタン */
     #close {
         position: absolute;
         top: 20px;
         right: 20px;
-        /* background-color: transparent;
-        border: none; */
-    }
-    #nav-sp nav ul {
-        padding-left: 0;
-    }
-    #nav-sp nav li {
-        list-style: none;
-    }    
+    } 
      /* ナビゲーションメニュー用ロゴ */
     #logo-sp {
         margin: 80px 0 30px 20px;
@@ -102,6 +100,9 @@ header {
     }
     #nav-sp a:visited {
         color: #ffffff;
+    }
+    #nav-sp a:hover {
+        text-decoration: none;
     }
    #nav-sp a:active {
         color: #ffffff;
