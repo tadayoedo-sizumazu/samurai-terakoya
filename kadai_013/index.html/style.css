@@ -14,6 +14,7 @@ body {
 header {
     display: flex;   
     justify-content: space-between;
+    align-items: center;
 } 
 /*ナビゲーションのレイアウト*/   
 #nav-pc {
@@ -102,7 +103,7 @@ header {
         color: #ffffff;
     }
     #nav-sp a:hover {
-        text-decoration: none;
+        text-decoration: underline;
     }
    #nav-sp a:active {
         color: #ffffff;
